@@ -1,0 +1,7 @@
+- id: clang-format
+  name: clang-format
+  description: Clang-formatter for my repos, use with .clang-format file
+  entry: clang-format
+  args: [-style=file -i]
+  language: system
+  files: '\.(c|cc|cpp|hpp|h)$'
