@@ -4,4 +4,5 @@
   entry: clang-format
   args: [-style=file -i]
   language: system
-  files: '\.(c|cc|cpp|hpp|h)$'
+  types: [file]
+  files: \.(c|cc|cpp|hpp|h)$
