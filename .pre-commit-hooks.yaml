@@ -1,7 +1,7 @@
-- id: clang-format
-  name: clang-format
+- id: clang-format-10
+  name: clang-format-10
   description: Clang-formatter for my repos, use with .clang-format file
-  entry: clang-format
+  entry: clang-format-10
   args: ["-style=file -i"]
   language: script
   types: [file]
