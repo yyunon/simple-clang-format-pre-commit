@@ -3,6 +3,6 @@
   description: Clang-formatter for my repos, use with .clang-format file
   entry: clang-format
   args: ["-style=file -i"]
-  language: system
+  language: script
   types: [file]
   files: \.(c|cc|cpp|hpp|h)$
