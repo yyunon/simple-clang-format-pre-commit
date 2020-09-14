@@ -1,8 +1,7 @@
-- id: clang-format-10
-  name: clang-format-10
+- id: clang-format-scripted
+  name: clang-format-scripted
   description: Clang-formatter for my repos, use with .clang-format file
-  entry: clang-format-10
-  args: ["-style=file -i"]
+  entry: bash -c 'find . -regex '.*\.\(cpp\|hpp\|cc\|cxx\)' -exec clang-format-10 -style=file -i {} \'
   language: system
   types: [file]
   files: \.(c|cc|cpp|hpp|h)$
